@@ -1,0 +1,1 @@
+# Crear archivo comic_register.json
