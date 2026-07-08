@@ -8,3 +8,7 @@
 ## 2. Limpieza inicial de dataframe
 - Con pandas y funciones lambda quitamos el texto innecesario de las columnas
 - Convertimos las columnas de fecha al formato correcto
+
+## 3. Chequeo de comics registrados
+- Con la función check_if_exist verificamos si el comic ya fue registrado
+- Si no fue registrado, lo agregamos a la lista de comics registrados

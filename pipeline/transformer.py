@@ -23,7 +23,8 @@ def clean_data(comic_list):
     # Pido un expresión regular a la IA para manejar mi función
     # resultado = re.sub(r'\b\d{1,2}\b', '', texto)
     df_formatted["Release Date"] = df_formatted["Release Date"].apply(lambda x: re.sub(r'\b\d{1,2}\b,?', '', x))
-    # Conviero a un formato de fecha
+    
+    # Convierto a un formato de fecha
     # fecha_objeto = datetime.strptime(fecha_texto, "%B %Y")
     df_formatted["Release Date"] = df_formatted["Release Date"].apply(lambda x: datetime.strptime(x, "%B %Y"))
     df_formatted["Cover Date"] = df_formatted["Cover Date"].apply(lambda x: datetime.strptime(x, "%B %Y"))
