@@ -12,3 +12,9 @@
 ## 3. Chequeo de comics registrados
 - Con la función check_if_exist verificamos si el comic ya fue registrado
 - Si no fue registrado, lo agregamos a la lista de comics registrados
+
+# 4. Reorganización del código
+- Separación de los scripts en sus carpetas correspondientes
+- Creación de un pipeline para automatizar el proceso
+- Creación de los modelos y esquemas para subir y consultar de la base de datos
+- Creación de una API para consultar los datos
